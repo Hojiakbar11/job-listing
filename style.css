@@ -1,0 +1,167 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'League Spartan', sans-serif;
+}
+
+.container {
+    width: 100%;
+    max-width: 1140px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-right: 20px;
+    padding-left: 20px;
+
+}
+
+/* header */
+
+.header {
+    height: 152px;
+    border-radius: 5px;
+    background: #5CA5A5;
+    background-image: url(img/header.png);
+    box-shadow: 0px 15px 20px -5px rgba(13, 113, 130, 0.15);
+}
+
+.main {
+    padding-top: 81px;
+    border-radius: 5px;
+    /* background: #FFF; */
+    background: #EFFAFA;
+}
+
+
+.jobs {
+    padding-bottom: 120px;
+    background: #EFFAFA;
+
+    list-style: none;
+}
+
+.li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 5px;
+    background: #FFF;
+    box-shadow: 0px 15px 20px -5px rgba(13, 113, 130, 0.15);
+    margin-bottom: 24px;
+}
+
+.job-pro {
+    border-left: 3px solid #5CA5A5;
+}
+
+.job-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.job-img {
+    padding: 27px 0 37px 40px;
+    padding-right: 24px;
+}
+
+.job-info {}
+
+.job-description {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.job-description1{
+    display: flex;
+    align-items: center;
+}
+
+.job-company {
+    color: #5CA5A5;
+    font-size: 14px;
+    font-weight: 700;
+    margin-right: 16px;
+}
+
+.job-status {
+    color: #FFF;
+    font-size: 11px;
+    text-align: center;
+    font-weight: 700;
+    padding: 6px 8px 4px;
+    line-height: 14px;
+    letter-spacing: -0.085px;
+    text-transform: uppercase;
+}
+
+.job-status-new {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 8px;
+    width: 51px;
+    height: 24px;
+    flex-shrink: 0;
+    border-radius: 12px;
+    background: #5CA5A5;
+}
+
+.job-status-futured {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 79px;
+    height: 24px;
+    flex-shrink: 0;
+    border-radius: 12px;
+    background: #2B3939;
+}
+
+.job-link {
+    text-decoration: none;
+    color: #2B3939;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 24px;
+}
+
+.job-link-title {}
+
+.job-extra-info {}
+
+.job-extra {
+    color: #7C8F8F;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: -0.115px;
+}
+
+.nuqta {
+    width: 4px;
+    height: 4px;
+    border-radius: 50%;
+    margin-right: 16px;
+    margin-left: 16px;
+    background-color: #B7C4C4;
+    display: inline-block;
+}
+
+.job-tags {
+    padding-right: 26px;
+}
+
+.job-tag {
+    margin-right: 16px;
+    padding: 4px 8px;
+    color: #5CA5A5;
+    font-size: 13px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: -0.1px;
+    border: none;
+}
